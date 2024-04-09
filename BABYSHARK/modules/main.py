@@ -32,10 +32,9 @@ async def start(_, msg):
     buttons = [
         [ 
           InlineKeyboardButton("kidnap me", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+        ],[ 
+          InlineKeyboardButton("LOMDU", url=f"https://t.me/SMKTHEBOTZ")
         ],[
-                                InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=f'https://t.me/SMKTHEBOTZ') #Don't change anything without contacting me @LazyDeveloperr
-                            ],
-        [
           InlineKeyboardButton("• ʜᴀɴᴅʟᴇʀ •", callback_data="dil_back")
         ]]
     
